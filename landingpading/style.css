@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgba(22,32,42,255);
+    background:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e675e64-dabf-412a-8ddb-53c5d92f8fe8/df4gz5m-281126ec-4483-447e-9c5b-f5528e8cc47e.png/v1/fill/w_1280,h_720,q_80,strp/valorant_fade_greyscale_wallpaper_by_elvenv_df4gz5m-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNWU2NzVlNjQtZGFiZi00MTJhLThkZGItNTNjNWQ5MmY4ZmU4XC9kZjRnejVtLTI4MTEyNmVjLTQ0ODMtNDQ3ZS05YzViLWY1NTI4ZThjYzQ3ZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3e5xVJO8YkCSTDm-1zM6AaxuaWGxxew7Lf30TqkK44g) ;
+
+}
+
+header{
+    opacity: 75%;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center ;
+    background-color: black;
+    width: 1510px;
+    height: 150px;
+}
+
+.head{
+    color: white;
+
+    
+}
+
+.destaque{
+    color: red;
+}
+
+.text{
+    background-color:black; 
+    color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 6%;
+    border: solid 1px;}
+
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+
+.form{
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 350px;
+    height: 300px;
+    border-radius: 6%;
+    border: solid 1px;
+    background-color: black;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 50px;
+    height: 50px;   
+    margin-top: -580px; 
+}
