@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- formulario -->
+        <div class="formulario">
+            <h2>preencha os dados</h2>
+            <input type="text" class="campo-input" placeholder="nome">
+            <input type="email" class="campo-input" placeholder="email">
+            <input type="tel" class="campo-input" placeholder="telefone">
+
+            <button onclick="mostrarDados()">enviar</button>
+
+        </div>
+
+        <!-- exibicao dos dados -->
+        <div class="resultado" id="resultado">
+            <h2>dados inseridos</h2>
+            <p><b>nome</b> <span id="nomeexibido"></span></p>
+            <p><b>email</b> <span id="emailexibido"></span></p>
+            <p><b>telefone</b> <span id="telefoneexibido"></span></p>
+
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
