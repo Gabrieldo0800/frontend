@@ -1,35 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
 </head>
+
 <body>
     <div class="container">
-
         <!-- formulario -->
         <div class="formulario">
-            <h2>preencha os dados</h2>
-            <input type="text" class="campo-input" placeholder="nome">
-            <input type="email" class="campo-input" placeholder="email">
-            <input type="tel" class="campo-input" placeholder="telefone">
-
-            <button onclick="mostrarDados()">enviar</button>
-
+            <h2>Preencha os dados pessoais</h2>
+            <input type="text" class="campo-input" placeholder="Nome"><br><br>
+            <input type="email" class="campo-input" placeholder="E-mail"><br><br>
+            <input type="tel" class="campo-input" placeholder="Telefone"><br><br>
+            <input type="number" class="campo-input" placeholder="Idade"><br><br>
+            <input type="text" class="campo-input" placeholder="Estado Civil"><br><br>
+            <input type="text" class="campo-input" placeholder="Profissão"><br><br>
         </div>
 
-        <!-- exibicao dos dados -->
-        <div class="resultado" id="resultado">
-            <h2>dados inseridos</h2>
-            <p><b>nome</b> <span id="nomeexibido"></span></p>
-            <p><b>email</b> <span id="emailexibido"></span></p>
-            <p><b>telefone</b> <span id="telefoneexibido"></span></p>
+        <div class="formulario2">
+            <h2>Preencha os dados do endereço</h2>
+            <input type="text" class="campo-input-endereco" placeholder="Logradouro"><br><br>
+            <input type="text" class="campo-input-endereco" placeholder="Bairro"><br><br>
+            <input type="number" class="campo-input-endereco" placeholder="Numero"><br><br>
+            <input type="text" class="campo-input-endereco" placeholder="Cidade"><br><br>
+            <input type="text" class="campo-input-endereco" placeholder="Estado"><br><br>
 
-
+            <button onclick="mostrardados()">Enviar</button>
         </div>
+
+         <!-- Exibição dos dados -->
+         <div class="resultado" id="resultado">
+            <h2>Dados Inseridos</h2>
+            <!-- Dados pessoais -->
+            <p><strong><em>Dados Pessoais:</em></strong></p>
+            <p><strong>Nome:</strong> <span id="nome"></span></p>
+            <p><strong>E-mail:</strong> <span id="email"></span></p>
+            <p><strong>Telefone:</strong> <span id="telefone"></span></p>
+            <p><strong>Idade:</strong> <span id="idade"></span></p>
+            <p><strong>Estado Civil:</strong> <span id="estcivil"></span></p>
+            <p><strong>Profissão:</strong> <span id="profissao"></span></p>
+            <hr>
+            <p><strong><em>Endereço:</em></strong></p>
+
+            <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+            <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+            <p><strong>Número:</strong> <span id="numero"></span></p>
+            <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+            <p><strong>Estado:</strong> <span id="estado"></span></p>
+
+         </div>
     </div>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
+
